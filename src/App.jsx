@@ -1,20 +1,25 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import {BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+import HeroSection from './components/HeroSection';
+import Mint from './components/Mint';
+import Featured1 from './components/Featured1';
+import Featured2 from './components/Featured2';
+import Roadmap from './components/Roadmap';
+import Team from './components/Team';
+import FaqSection from './components/FaqSection';
 
 function App() {
   return (
-    <BrowserRouter>
-    <div className="pt-20">
+    <div className="flex flex-col content-center">
       <Navbar />
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} exact />
-      </Switch>
+      <HeroSection />
+      <Mint/>
+      <Featured1/>
+      <Featured2/>
+      <Roadmap/>
+      <Team/>
+      <FaqSection/>
     </div>
-    </BrowserRouter>
   )
 }
 

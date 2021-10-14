@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('../imgs/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 8193px;
+    width: 1440px; */background-color: #464646;
+}
+.borderDiv{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid lawngreen;
+    border-radius: 25px;
+    transform: perspective(75em) rotateY(-20deg) rotateZ(4deg);
+}
+.div1{
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+    border-radius: 25px;
+    transform: perspective(75em) rotateY(0deg) rotateZ(-4deg);
+}
+.innerDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
