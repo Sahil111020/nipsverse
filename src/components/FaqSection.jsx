@@ -1,12 +1,13 @@
 import React from 'react';
+import '../css/index.css'
 
 function FaqSection() {
     return (
-        <div className="flex flex-col justify-center m-auto">
-            <div className="border-2 p-40 m-auto">
-                <details className="">
-                    <summary className="">Lorem ipsum dolor sit amet?</summary>
-                    <p className="px-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem veniam neque cum velit id ad molestias. Iusto quaerat iste alias ea consequatur temporibus ex distinctio.</p>
+            <div className="pt-16 w-6/12 mx-auto mb-60 flex flex-col items-center text-gray-100 font-poppins">
+                <h1 className="text-4xl px-16 pb-4">Freaquently Asked Questions</h1>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet?</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem veniam neque cum velit id ad molestias. Iusto quaerat iste alias ea consequatur temporibus ex distinctio.</p>
                 </details>
                 <details>
                     <summary>Lorem ipsum dolor sit amet?</summary>
@@ -21,8 +22,6 @@ function FaqSection() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem veniam neque cum velit id ad molestias. Iusto quaerat iste alias ea consequatur temporibus ex distinctio.</p>
                 </details>
             </div>
-        </div> 
-        
     );
 }
 

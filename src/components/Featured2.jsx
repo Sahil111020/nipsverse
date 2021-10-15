@@ -3,7 +3,7 @@ import React from 'react';
 function Featured2() {
     return ( 
         <div className="h-96 w-full flex items-center justify-center text-center">
-            <div className="w-3/5 h-full grid grid-cols-7 grid-rows-3 p-4 bg-red-300 rounded-lg">
+            <div className="w-3/5 h-full grid grid-cols-7 grid-rows-3 p-4 bg-primary opacity-60 rounded-lg">
                 <div className="bg-yellow-200 border">1</div>
                 <div className="bg-yellow-200 border">2</div>
                 <div className="bg-yellow-200 border">3</div>

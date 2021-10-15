@@ -3,9 +3,16 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    backgroundColor:{
+      'primary': '#180430',
+      'secondary': '#12FED9',
+      'tertiory': '#DF1571',
+      'newPurple': '#EBE1FF'
+    },
     extend: {
       fontFamily: {
-        'press-start': ["'Press Start 2P', cursive;"]
+        'press-start': ["'Press Start 2P', cursive;"],
+        'poppins': ["'Poppins', sans-serif"]
       },
       gridTemplateColumns: {
         '16': '2fr 1fr',

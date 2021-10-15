@@ -9,8 +9,8 @@ import Team6 from '../imgs/team6.png'
 
 function Team() {
     return ( 
-        <div className="flex flex-col text-center pt-14">
-            <h1 className="text-4xl px-16 pb-1 my-5">Roadmap</h1>
+        <div className="flex flex-col text-center items-center pt-14 text-gray-100 font-poppins" id="team">
+            <h1 className="text-4xl px-16 pb-1 my-5">Team</h1>
                  <div className="flex flex-row justify-center">
                     <Members img={Team1} name="lorem"/>
                     <Members img={Team2} name="lorem"/>
@@ -19,6 +19,7 @@ function Team() {
                     <Members img={Team5} name="lorem"/>
                     <Members img={Team6} name="lorem"/>
                 </div>
+            <button className="bg-blue-500 text-gray-900 bg-secondary font-semibold py-3 px-4 rounded-full w-40 m-10">Show All</button>    
         </div>
     );
 }
