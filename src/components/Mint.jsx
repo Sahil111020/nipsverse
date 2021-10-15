@@ -4,7 +4,7 @@ import Png3 from '../imgs/3.png'
 
 function Mint() {
     return (
-        <div className="flex justify-center mt-16">
+        <div className="flex justify-center mt-16 w-full font-poppins">
             <div className="flex flex-col mr-48 w-3/5 h-80 my-16">
                 <div className="borderDiv">
                     <div className="div1">
@@ -14,7 +14,7 @@ function Mint() {
                                 <h3 className="text-xl mx-12 mb-4">Enter the amount of nipples you would like to buy ( 20 max ):</h3>
                                 <div>
                                     <input type="text" className="h-12 w-32 px-7 text-xl mx-12 rounded-full border-gray-300"/>
-                                    <button type="submit" className="h-12 px-8 text-xl text-indigo-100 tracking-widest bg-pink-500 rounded-full shadow-sm">MINT</button>
+                                    <button type="submit" className="h-12 px-8 text-xl text-indigo-100 tracking-widest bg-tertiory rounded-full shadow-sm">MINT</button>
                                     <h1 className="text-xl mx-16 my-2">12 ETH</h1>
                                 </div>
                             </div>
