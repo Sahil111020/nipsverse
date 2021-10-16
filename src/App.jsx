@@ -8,6 +8,7 @@ import Roadmap from './components/Roadmap';
 import Team from './components/Team';
 import FaqSection from './components/FaqSection';
 import Aos from 'aos'
+import Mountain from "./components/Mountain";
 import 'aos/dist/aos.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Roadmap data-aos="fade-up"/>
       <Team data-aos="fade-left"/>
       <FaqSection data-aos="fade-up"/>
+      <Mountain />
     </div>
     </>
   )
