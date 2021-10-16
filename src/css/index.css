@@ -44,7 +44,16 @@ body{
     align-items: flex-start;
     justify-content: center;
 }
-
+#mintbg{
+  clip-path: polygon(0 11%, 100% 3%, 100% 100%, 0 97% );
+}
+#divImg{
+  height: 100px;
+  width: 100px;
+}
+@media (min-width: 640px) {
+ 
+}
 details[open] summary ~ * {
     animation: open 0.3s ease-in-out;
   }
@@ -61,11 +70,11 @@ details[open] summary ~ * {
   }
   
   details summary {
-    width: 1000px;
+    width: 350px;
     padding: 0.5rem 20px;
     position: relative;
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 300;
     list-style: none;
     background: #07071b;
@@ -92,11 +101,34 @@ details[open] summary ~ * {
     margin-bottom: 10px;
   }
   details p {
-    width: 1000px;
-    font-size: 0.95rem;
+    width: 350px;
+    font-size: 0.90rem;
     margin: 0 0 1rem;
     padding: 1rem 20px;
     background: #2a2a2a;
     border-radius: 0 0 8px 8px;
   }
-  
+  @media (min-width: 640px){
+    #divImg{
+      height: 180px;
+      width: 180px;
+    }
+    details summary {
+      width: 600px;
+    }
+    details p {
+      width: 600px;
+    }
+  }
+  @media (min-width: 1024px) {
+    #divImg{
+      height: 140px;
+      width: 140px;
+    }
+    details summary {
+      width: 850px;
+    }
+    details p {
+      width: 850px;
+    }
+  }

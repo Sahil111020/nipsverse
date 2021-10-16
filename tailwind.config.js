@@ -21,12 +21,18 @@ module.exports = {
       backgroundImage: {
         'featured': "url('./src/imgs/Featured.svg')",
         'roadmap': "url('./src/imgs/RoadMap.svg')",
-        'faqframe': "url('./src/imgs/Frame.svg')"
+        'memberframe': "url('./src/imgs/Frame.svg')",
+        'mint': "url('./src/imgs/Mint.svg')",
+        'featuredlow': "url('./src/imgs/Featuredlow.svg')"
       },
       backgroundSize: {
-        '60%': '60%',
+        '90%': '90%',
         '50%': '50%',
-        '20%': '100%'
+        '55%': '55%',
+        '65%': '65%',
+        '80%': '80%',
+        '120%': '120%',
+        '100%': '100%'
       }
     },
   },
