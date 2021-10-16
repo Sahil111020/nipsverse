@@ -13,13 +13,15 @@ html{
   line-height: 32px;
 }
 body{
-    /* background-image: url('../imgs/background.jpg');
+    background-image: url('../imgs/background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    /*
     height: 8193px;
-    width: 1440px; */background-color: #464646;
+    width: 1440px; 
+    background-color: #464646;
+    */
 }
 .borderDiv{
     height: 100%;
