@@ -14,7 +14,7 @@ function Navbar() {
   return (
       <nav className="flex flex-wrap items-center justify-between w-screen text-lg text-white bg-customBlack fixed z-10">
         <div>
-        <button type="button" className="block lg:hidden mx-2" onClick={handleClick}>
+        <button type="button" className="block lg:hidden m-2" onClick={handleClick}>
           <svg className="h-10 w-10 fill-current bg-tertiory rounded" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             {isOpen && (
             <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
