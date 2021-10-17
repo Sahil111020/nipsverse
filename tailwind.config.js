@@ -7,14 +7,18 @@ module.exports = {
       'primary': '#180430',
       'secondary': '#12FED9',
       'tertiory': '#DF1571',
-      'newPurple': '#EBE1FF'
+      'newPurple': '#EBE1FF',
+      'customBlack':'#040404',
     },
     textColor:{
       'primary1': '#f2f2f2',
+      'primary2': '#ffffff',
       'customBlack':'#020202',
       'secondary1': '#12FED9',
       'tertiory1': '#DF1571',
-      'newPurple1': '#EBE1FF'
+      'newPurple1': '#EBE1FF',
+      'twitter': '#1DA1F2',
+      'discord': '#7289DA',
     },
     extend: {
       fontFamily: {
