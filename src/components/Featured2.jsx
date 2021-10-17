@@ -21,7 +21,7 @@ import Nipple2gif from '../imgs/Nipplegif2.gif'
 function Featured2() {
     return ( 
         <div className="w-full flex items-center justify-center text-center mt-5">
-            <div className="w-auto grid grid-cols-3 grid-rows-6 lg:grid-cols-7 lg:grid-rows-3 p-4 bg-primary opacity-60 rounded-lg">
+            <div className="w-auto grid grid-cols-3 gap-2 grid-rows-6 lg:grid-cols-7 lg:grid-rows-3 p-4 bg-primary bg-opacity-60 rounded-lg">
                 <img id="divImg" src={Nipple1} className="bg-yellow-200"/>
                 <img id="divImg" src={Nipple2} className="bg-yellow-200"/>
                 <img id="divImg" src={Nipple3} className="bg-yellow-200"/>
@@ -37,7 +37,7 @@ function Featured2() {
                 <img id="divImg" src={Nipple12} className="bg-yellow-200"/>
 
                 <img id="divImg" src={Nipple13} className="bg-yellow-200"/>
-                <img src={Nipple2gif} className="bg-yellow-200 border row-start-1 row-end-3 col-start-3 col-end-1" />
+                <img id="divGif" src={Nipple2gif} className="bg-yellow-200 border row-start-1 row-end-3 col-start-3 col-end-1" />
                 <img id="divImg" src={Nipple14} className="bg-yellow-200"/>
                 <img id="divImg" src={Nipple15} className="bg-yellow-200"/>
                 <img id="divImg" src={Nipple16} className="bg-yellow-200"/>

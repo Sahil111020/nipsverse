@@ -13,11 +13,11 @@ html{
   line-height: 32px;
 }
 body{
-  background-image: url('../imgs/background.jpg');
+  /* background-image: url('../imgs/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
+  background-color: #464646; */
 }
 
 #mintbg{
@@ -26,6 +26,10 @@ body{
 #divImg{
   height: 100px;
   width: 100px;
+}
+#divGif{
+  height: 200px;
+  width: 200px;
 }
 #featuredbg{
   height: 600px;
@@ -85,9 +89,10 @@ details[open] summary ~ * {
     border-radius: 0 0 8px 8px;
   }
   @media (min-width: 640px){
-    /* #innerfeature{
-      grid-template-columns: 30% 70%;
-    } */
+    #divGif{
+      height: 360px;
+      width: 360px;
+    }
     #divImg{
       height: 180px;
       width: 180px;
@@ -106,6 +111,10 @@ details[open] summary ~ * {
     #divImg{
       height: 140px;
       width: 140px;
+    }
+    #divGif{
+      height: 280px;
+      width: 280px;
     }
     details summary {
       width: 850px;
