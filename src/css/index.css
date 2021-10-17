@@ -13,37 +13,13 @@ html{
   line-height: 32px;
 }
 body{
-    /* background-image: url('../imgs/background.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 8193px;
-    width: 1440px; */background-color: #464646;
+  background-image: url('../imgs/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
 }
-.borderDiv{
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    border: 2px solid lawngreen;
-    border-radius: 25px;
-    transform: perspective(75em) rotateY(-20deg) rotateZ(4deg);
-}
-.div1{
-    height: 100%;
-    width: 100%;
-    background-color: #12FED9;
-    border-radius: 25px;
-    transform: perspective(75em) rotateY(0deg) rotateZ(-4deg);
-}
-.innerDiv{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
+
 #mintbg{
   clip-path: polygon(0 11%, 100% 3%, 100% 100%, 0 97% );
 }
@@ -51,8 +27,8 @@ body{
   height: 100px;
   width: 100px;
 }
-@media (min-width: 640px) {
- 
+#featuredbg{
+  height: 600px;
 }
 details[open] summary ~ * {
     animation: open 0.3s ease-in-out;
@@ -109,6 +85,9 @@ details[open] summary ~ * {
     border-radius: 0 0 8px 8px;
   }
   @media (min-width: 640px){
+    /* #innerfeature{
+      grid-template-columns: 30% 70%;
+    } */
     #divImg{
       height: 180px;
       width: 180px;
@@ -121,6 +100,9 @@ details[open] summary ~ * {
     }
   }
   @media (min-width: 1024px) {
+    #featuredbg{
+      height: 700px;
+    }
     #divImg{
       height: 140px;
       width: 140px;

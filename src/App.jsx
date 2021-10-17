@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <div className="flex flex-col items-center justify-evenly">
+    <div className="flex flex-col items-center justify-evenly text-primary1">
       <HeroSection data-aos="fade-up" />
       <Mint data-aos="fade-up"/>
       <Featured1 data-aos="fade-up"/>

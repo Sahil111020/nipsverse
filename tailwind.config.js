@@ -9,6 +9,13 @@ module.exports = {
       'tertiory': '#DF1571',
       'newPurple': '#EBE1FF'
     },
+    textColor:{
+      'primary1': '#f2f2f2',
+      'customBlack':'#020202',
+      'secondary1': '#12FED9',
+      'tertiory1': '#DF1571',
+      'newPurple1': '#EBE1FF'
+    },
     extend: {
       fontFamily: {
         'press-start': ["'Press Start 2P', cursive;"],
