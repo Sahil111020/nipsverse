@@ -7,24 +7,25 @@ import Featured2 from './components/Featured2';
 import Roadmap from './components/Roadmap';
 import Team from './components/Team';
 import FaqSection from './components/FaqSection';
-import Aos from 'aos'
+import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function App() {
   useEffect(() =>{
-    Aos.init({ duration: 1000});
+    AOS.init({ duration: 1500});
+    AOS.refresh();
   }, [])
   return (
     <>
     <Navbar />
-    <div className="flex flex-col items-center justify-evenly text-primary1">
-      <HeroSection data-aos="fade-up" />
-      <Mint data-aos="fade-up"/>
-      <Featured1 data-aos="fade-up"/>
-      <Featured2 data-aos="fade-up"/>
-      <Roadmap data-aos="fade-up"/>
-      <Team data-aos="fade-left"/>
-      <FaqSection data-aos="fade-up"/>
+    <div className="flex flex-col items-center justify-evenly text-primary1" >
+      <HeroSection  />
+      <Mint />
+      <Featured1 />
+      <Featured2 />
+      <Roadmap />
+      <Team />
+      <FaqSection />
     </div>
     </>
   )

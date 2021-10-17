@@ -5,7 +5,7 @@ import Png3 from '../imgs/3.png'
 function Mint() {
     return (
         <div className="flex justify-center w-full h-auto font-poppins my-10 text-customBlack">
-            <div id="mintbg" className="bg-secondary h-5/6 md:h-auto md:py-8 w-5/6 xl:w-9/12 2xl:w-7/12 grid grid-flow-row md:grid-flow-col justify-evenly items-center">
+            <div id="mintbg" data-aos="fade-right" className="bg-secondary h-5/6 md:h-auto md:py-8 w-5/6 xl:w-9/12 2xl:w-7/12 grid grid-flow-row md:grid-flow-col justify-evenly items-center">
                 <div className="flex flex-col justify-center items-center md:items-start md:ml-7">
                     <h1 className="text-2xl md:text-3xl font-bold mt-16 pb-5 md:ml-4">Mint</h1>
                     <h3 className="text-lg px-5 md:px-2 md:ml-3 pb-5">Enter the amount of nipples you would like to buy ( 20 max ):</h3>
